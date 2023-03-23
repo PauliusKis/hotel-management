@@ -1,0 +1,7 @@
+.guest_cards{
+        padding: 10px 25px;
+        background-color: #c8d8e4;
+        cursor: pointer;
+        margin-bottom: 15px;
+        border-radius: 10px;
+}

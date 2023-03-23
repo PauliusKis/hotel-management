@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000000;
+  margin-bottom: 0;
+}
+.flexbox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 35px;
+}
+
+
+.flexbox .board-rooms {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 300px;
+
+  border: 50px;
+  margin-right: 15px;
+
+  background-color: #313131;
+
+  padding: 25px;
+  gap: 20px;
+}
+.flexbox .board-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 600px;
+
+  border: 50px;
+
+  background-color: #313131;
+
+  padding: 25px;
+  border-right: 1px solid #ccc;
+}
+
+.flexbox .board-guests {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 200px;
+
+  border: 25px;
+  font-size: 13px;
+
+  background-color: #313131;
+
+  padding: 25px;
+  border-right: 1px solid #ccc;
+}
+
+.flexbox .board-rooms .card {
+  padding: 15px 25px;
+  background-color: #f3f3f3;
+
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.flexbox .board-info .card {
+  padding: 15px 25px;
+  background-color: #f3f3f3;
+
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.flexbox .board-guests .card {
+  padding: 1px 0px;
+  background-color: #f3f3f3;
+
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+.board-label-rooms {
+  position: absolute;
+  top: -5px;
+  left: -820px;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  z-index: 1
+  ;
+}
+.board-label-info {
+  position: absolute;
+  top: -5px;
+  left: 120px;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  z-index: 1;
+}
+
+.board-label-guests {
+  position: absolute;
+  top: -10px;
+  left: 920px;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+  z-index: 1;
+}
+.room {
+  padding: 15px 25px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.room-info {
+  padding: 25px 25px;
+  background-color: #f3f3f3;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.search-bar {
+  position: sticky;
+  top: 0px ;
+  left: 0;
+  right: 0;
+  padding: -30px;
+  
+}
+

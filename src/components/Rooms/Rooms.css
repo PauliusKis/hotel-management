@@ -1,0 +1,23 @@
+.room {
+    padding: 15px 25px;
+    background-color: #c8d8e4;
+    cursor: pointer;
+    margin-bottom: 15px;
+    border-radius: 10px;;
+  }
+  
+  .room-info {
+    padding: 25px 25px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+
+  .selected-room{
+    padding: 30px 40px;
+    background-color: #c8d8e4;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+ 
